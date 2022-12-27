@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(132, 186, 188);
+}
+.whole{
+    text-align: center;
+    padding: 1% 15% 4% 10%;
+
+}
+.player{
+    margin: 4% 9%;
+    display: flex;
+    justify-content: center;
+
+}
+.player h3{
+    margin: 1% 15%;
+}
+.player img{
+    margin: 1% 7%;
+}
+h1{
+    font-size: 130px;
+    font-weight: 800;
+    color: rgb(23, 68, 60);
+}
+h3{
+    font-size: 50px;
+
+}
+@media (max-width:1000px){
+    h1{
+        font-size: 60px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    img{
+        width: 50%;
+        height: 50%;
+    }
+}
